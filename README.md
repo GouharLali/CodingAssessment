@@ -72,6 +72,28 @@ The application follows the MVVM (Model-View-ViewModel) architecture pattern, se
 ### File I/O
 
 - File I/O operations for saving text to a local text file.
+Absolutely! Here's how you can integrate that into the README:
+
+---
+
+## Areas for Improvement
+
+While the Coding Assessment App is functional and demonstrates core Android development concepts, there are areas where it could be improved:
+
+1. **Error Handling**: Implement more robust error handling mechanisms to gracefully handle unexpected situations and provide informative error messages to users.
+
+2. **UI/UX Design**: I would have improved the layout to ensure text is visible straight away in recycleView.
+
+3. **Code Refactoring**: Refactor the codebase to improve readability, maintainability, and scalability. Break down complex components into smaller, more manageable pieces and remove duplicate or redundant code.
+
+4. **Unit Testing**: Increase test coverage by writing additional unit tests to cover edge cases and corner scenarios.
+
+5. **Documentation**: Enhance code documentation by adding inline comments and documenting. 
+
+6. **Security**: Ensure that the app follows best practices for security, such as securely storing sensitive data and protecting against common security threats.
+
+
+
 
 
 
