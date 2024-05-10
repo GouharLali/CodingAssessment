@@ -8,5 +8,5 @@ data class ListItem(
     val timestamp: Long
 ) {
     val timestampFormatted: String
-        get() = SimpleDateFormat("[HH:mm]", Locale.getDefault()).format(Date(timestamp))
+        get() = SimpleDateFormat("[ HH:mm ]", Locale.getDefault()).format(Date(timestamp))
 }
