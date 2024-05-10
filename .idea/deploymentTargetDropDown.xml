@@ -11,6 +11,12 @@
       <entry key="testEmptyTextInput()">
         <State />
       </entry>
+      <entry key="testRotation()">
+        <State />
+      </entry>
+      <entry key="testSpecialCharactersTextInput()">
+        <State />
+      </entry>
     </value>
   </component>
 </project>
