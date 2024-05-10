@@ -31,8 +31,8 @@ class MainViewModel(
     private fun writeTextToFile(text: String) {
         try {
             val fileOutputStream = getApplication<Application>().openFileOutput(fileName, MODE_APPEND)
-            fileOutputStream.write((text + "\n").toByteArray())
-            fileOutputStream.close()
+            fileOutputStream?.write((text + "\n").toByteArray())
+            fileOutputStream?.close()
         } catch (e: IOException) {
             // Handle the exception gracefully, for example, showing a toast message
             Toast.makeText(getApplication(), "Error saving data", Toast.LENGTH_SHORT).show()
