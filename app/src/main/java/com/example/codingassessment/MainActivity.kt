@@ -15,7 +15,7 @@ class MainActivity : AppCompatActivity() {
         binding = LayoutActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
-        viewModel = ViewModelProvider(this).get(MainViewModel::class.java)
+        viewModel = ViewModelProvider(this)[MainViewModel::class.java]
         binding.viewModel = viewModel
         binding.lifecycleOwner = this
 

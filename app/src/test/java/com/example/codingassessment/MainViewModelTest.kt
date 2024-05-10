@@ -12,7 +12,7 @@ class MainViewModelTest {
     @Mock
     lateinit var application: Application
 
-    lateinit var viewModel: MainViewModel
+    private lateinit var viewModel: MainViewModel
 
     @Before
     fun setUp() {
