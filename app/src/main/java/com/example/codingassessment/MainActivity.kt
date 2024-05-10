@@ -20,7 +20,9 @@ class MainActivity : AppCompatActivity() {
         binding.lifecycleOwner = this
 
         binding.button.setOnClickListener {
-            viewModel.onOkButtonClick()
+            viewModel.onOkButtonClick(binding.editText.text.toString())
+            binding.editText.clearFocus()
         }
     }
 }
+

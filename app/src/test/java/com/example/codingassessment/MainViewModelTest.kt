@@ -26,8 +26,7 @@ class MainViewModelTest {
         assertEquals(0, viewModel.items.size)
 
         // Simulate button click
-        viewModel.text = "Test"
-        viewModel.onOkButtonClick()
+        viewModel.onOkButtonClick("Test")
 
         // Verify item added
         assertEquals(1, viewModel.items.size)
