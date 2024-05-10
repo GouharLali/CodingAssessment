@@ -27,8 +27,6 @@ class MainActivityTest {
 
         // Check if RecyclerView is displayed after button click
         onView(withId(R.id.recyclerView)).check(matches(isDisplayed()))
-
-        // Add more assertions here to validate RecyclerView content, etc.
     }
 
 
@@ -42,8 +40,6 @@ class MainActivityTest {
 
         // Verify that RecyclerView is displayed after button click
         onView(withId(R.id.recyclerView)).check(matches(isDisplayed()))
-
-        // Add more assertions here to validate RecyclerView content, etc.
     }
 
 }
