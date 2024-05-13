@@ -72,9 +72,6 @@ The application follows the MVVM (Model-View-ViewModel) architecture pattern, se
 ### File I/O
 
 - File I/O operations for saving text to a local text file.
-Absolutely! Here's how you can integrate that into the README:
-
----
 
 ## Areas for Improvement
 
