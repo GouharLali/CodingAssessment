@@ -73,7 +73,7 @@ While the Coding Assessment App is functional and demonstrates core Android deve
 
 2. **UI/UX Design**: I would have improved the layout to ensure text is visible straight away in recycleView.
 
-3. **Code Refactoring**: Refactor the codebase to improve readability, maintainability, and scalability. Break down complex components into smaller, more manageable pieces and remove duplicate or redundant code.
+3. **Code Refactoring**: Refactor the codebase to improve readability, maintainability, and scalability.
 
 4. **Unit Testing**: Increase test coverage by writing additional unit tests to cover edge cases and corner scenarios.
 
