@@ -90,7 +90,3 @@ While the Coding Assessment App is functional and demonstrates core Android deve
 6. **Security**: Ensure that the app follows best practices for security, such as securely storing sensitive data and protecting against common security threats.
 
 
-
-
-
-
