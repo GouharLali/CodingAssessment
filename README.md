@@ -9,14 +9,6 @@ The Coding Assessment App is an Android application developed to demonstrate bas
 - Supports special characters input.
 - Unit tests for ViewModel and RecyclerView Adapter.
 
-## Getting Started
-
-To get started with this project, follow these steps:
-
-1. Clone this repository.
-2. Open the project in Android Studio.
-3. Build and run the project on an Android device or emulator.
-
 ## Screenshots
 
 <img src="https://github.com/GouharLali/CodingAssessment/assets/94018886/9b2dc0f4-ad0c-4919-be14-462d8e342725" alt="One" width="20%" height="auto"/>
